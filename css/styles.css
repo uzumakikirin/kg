@@ -1,0 +1,1024 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Dejavu sans";
+}
+
+header {
+    background: url(../images/top_bg.png);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+    padding: 10px;
+
+}
+
+
+
+/* Title And Brand Logo css  */
+
+.brand {
+    width: 69px;
+    height: 30px;
+    float: left;
+    margin: 10px;
+}
+
+.logo a {
+    float: left;
+    text-decoration: none;
+    margin: 10px 0px;
+    line-height: 30px;
+    font-size: 24px;
+    color: #585859;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logo {
+    float: left;
+}
+
+/* Navigation Bar Css */
+nav {
+    float: right;
+    margin: 10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 2px solid transparent;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    background-color: transparent;
+    color: #FC71AF;
+
+}
+
+.title {
+    width: 80%;
+    position: absolute;
+    top: 544px;
+    left: 150px;
+}
+
+.ketaikensho {
+    width: 80%;
+    position: absolute;
+    top: 440px;
+    left: 150px;
+}
+
+.title img {
+    width: 100%;
+}
+
+/* information css */
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.col-11 {
+    flex-basis: 91.67%;
+    flex-grow: 11;
+    flex-shrink: 11;
+}
+
+.col-6 {
+    flex-basis: 48%;
+
+}
+
+.col {
+    flex-basis: 90%;
+    flex-grow: 12;
+    flex-shrink: 12;
+}
+
+.col-1 {
+    flex-basis: 8.33%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.information {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.info-title {
+    color: #1DC3FD;
+    margin: 5px 5px 0 40px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #03afeb;
+    font-family: "Hira Kaku Std";
+}
+
+.info-items {
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.info-items ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #333333;
+    font-family: "Hira Kaku Pro";
+}
+
+.info-map {
+    background: url(../images/map.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: auto;
+}
+
+.midasi {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.midasi img {
+    width: 590px;
+}
+
+.midasi-text {
+    width: 40%;
+    margin: 10px 30px;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #666666;
+    font-family: "Hira Kaku Pro";
+}
+
+.info-cost {
+    width: 88%;
+    margin: 10px auto;
+    margin-top: 30px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.items {
+    width: 100%;
+}
+
+.info-cost h3 {
+    background: url(../images/line_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Koburina Go Std";
+    text-align: center;
+}
+
+.cost-img1 {
+    width: 100%;
+    height: 100%;
+    margin-top:-10px; 
+}
+
+.cost-img2 {
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 301px;
+
+}
+
+.img1 {
+    background: url(../images/sep1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img2 {
+    background: url(../images/sep2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img3 {
+    background: url(../images/sep3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img4 {
+    background: url(../images/sep4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info-third {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info-third h2 {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 36px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    color: #03afeb;
+    font-family: "Koburina Go Std";
+    text-align: center;
+}
+
+.info-third h3 {
+    width: 75%;
+    margin: 20px auto;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    font-family: "Hira Kaku Pro";
+    text-align: center;
+}
+
+.info-third a h4 {
+    width:240px;
+    margin: 10px auto;
+    height: 39px;
+    line-height: 39px;
+    padding: 0px;
+    background: url(../images/arrow.png), url(../images/btn.png);
+    background-repeat: no-repeat;
+    background-position: 5%-10px, 50% 0%;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-family: "Koburina Go Std";
+    text-align: center;
+    border-radius:7px;
+
+
+}
+
+
+.info-third a {
+    text-decoration: none;
+}
+
+.info-third h5 {
+    width:200px;
+    background: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 20px -10px;
+    margin: 10px auto;
+    color: #000000;
+    font-size: 13px;
+    line-height: 12px;
+    font-family: "Hira Kaku Pro";
+    text-align: center;
+}
+
+
+
+.info-third a h5:hover {
+    background-color: #FC71AF;
+    background: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 20px 1px;
+}
+
+.link {
+    display: flex;
+    justify-content:flex-end;
+    
+}
+
+
+.link a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    color: #666666;
+    font-family: "Hira Kaku Std";
+    text-align:center;
+}
+
+
+.copyright {
+    padding: 10px 20px;
+    line-height: 60px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 11px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #666666;
+    background: #F5F5F5;
+    font-family: "Gotham";
+}
+
+
+
+@media(min-width:1640px) {
+
+    .container {
+        width: 65%;
+    }
+
+    /* Title Section */
+    .title {
+        width: 80%;
+        position: absolute;
+        top: 544px;
+        left: 300px;
+    }
+
+    .ketaikensho {
+        width: 80%;
+        position: absolute;
+        top: 440px;
+        left: 300px;
+    }
+
+    .title img {
+        width: 80%;
+    }
+
+    .midasi img {
+        width: 600px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .container {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .title {
+        width: 100%;
+        position: absolute;
+        top: 550px;
+        left: 0%;
+    }
+
+    .ketaikensho {
+        width: 100%;
+        position: absolute;
+        top: 440px;
+        left: 0%;
+    }
+
+    .title img {
+        width: 100%;
+    }
+
+    .midasi img {
+        width: 550px;
+    }
+
+    .link {
+        display: flex;
+        justify-content:flex-end;
+        
+    }
+    
+    
+    .link a {
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        font-size: 11px;
+        letter-spacing: 1px;
+        line-height: 60px;
+        color: #666666;
+        font-family: "Hira Kaku Std";
+        text-align:center;
+    }
+    
+    
+    .copyright {
+        padding: 10px 20px;
+        line-height: 60px;
+    }
+    
+    footer {
+        margin-top: 50px;
+        font-size: 11px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        color: #666666;
+        background: #F5F5F5;
+        font-family: "Gotham";
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    header {
+        background: url(../images/top_bg.png);
+        height: 700px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .container {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .title {
+        width: 100%;
+        position: absolute;
+        top: 550px;
+        left: 0%;
+    }
+
+    .ketaikensho {
+        width: 100%;
+        position: absolute;
+        top: 440px;
+        left: 0%;
+    }
+
+    .title img {
+        width: 100%;
+    }
+
+    .midasi img {
+        width: 520px;
+    }
+
+    .copyright{
+        flex-basis: 40%;
+    }
+
+    .link{
+        flex-basis: 50%;
+    }
+
+
+
+
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    header {
+        height: 500px;
+    }
+
+    .container {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .logo a {
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    .menu-toggle {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        background: transparent;
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        line-height: 40px;
+        font-size: 1.5rem;
+        color: #069370;
+
+    }
+
+    .menu-toggle:before {
+        content: '\f0c9';
+        font-family: fontAwesome;
+    }
+
+    .menu-toggle.active:before {
+        content: '\f00d';
+        font-family: fontAwesome;
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav ul li a {
+        padding: 10px 10px;
+        font-size: 0.7rem;
+    }
+
+    nav.active {
+        display: block;
+        width: 100%;
+        text-align: right;
+    }
+
+    nav.active ul {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background: #D6F5F8;
+        background: linear-gradient(#ffffff, #DAF6FA);
+        opacity: 0.8;
+        z-index: 999;
+
+    }
+
+    nav.active ul li a {
+        margin: 0px;
+        text-align: center;
+        font-size: 1rem;
+
+    }
+
+    nav.active ul li a:hover {
+        color: #E74A8F;
+        transition: 0.5s;
+    }
+
+    .info-cost {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .title {
+        width: 100%;
+        position: absolute;
+        top: 420px;
+        left: 0%;
+    }
+
+    .ketaikensho {
+        width: 100%;
+        position: absolute;
+        top: 310px;
+        left: 0%;
+    }
+
+    .title img {
+        width: 98%;
+    }
+
+    .midasi img {
+        width: 450px;
+    }
+
+    .info-title {
+        margin: 10px 5px 0 -20px;
+    }
+
+    .info-map {
+        height: 300px;
+        margin: 10px 0 50px 0;
+        background-size: contain;
+    }
+
+    .midasi {
+        margin: 0;
+        padding: 0;
+    }
+
+    .midasi img {
+        width: 360px;
+    }
+
+    .midasi-text {
+        width: 40%;
+        margin: 20px 2px;
+        padding: 0px;
+    }
+
+    .info-third {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .info-third h2 {
+        width: 70%;
+        margin: 20px auto;
+        font-size: 26px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        color: #03afeb;
+        font-family: "Koburina Go Std";
+        text-align: center;
+    }
+
+    .info-third h3 {
+        font-size: 12px;
+    }
+
+    .info-third a h4 {
+        width: 250px;
+        background-position: 10% -10px, 50% 0%;
+
+    }
+
+
+    .info-third a {
+        text-decoration: none;
+    }
+
+    .info-third h5 {
+        width: 200px;
+        background-position: 10% -10px;
+    }
+
+    .info-third a h5:hover {
+        background-position: 10% 1px;
+    }
+
+    
+
+    .link {
+        display: flex;
+        flex-basis: 99%;
+        justify-content:center;
+        
+    }
+    
+    
+    .link a {
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        font-size: 11px;
+        letter-spacing: 1px;
+        line-height: 10px;
+        color: #666666;
+        font-family: "Hira Kaku Std";
+        text-align:center;
+    }
+    
+    
+    .copyright {
+        padding: 10px 20px;
+        line-height: 10px;
+        flex-basis: 99%;
+        justify-content: center;
+    }
+
+    .copyright h5{
+        text-align: center;
+    }
+    
+    footer {
+        margin-top: 50px;
+        font-size: 11px;
+        line-height: 20px;
+        color: #666666;
+        background: #F5F5F5;
+        font-family: "Gotham";
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    header {
+        height: 380px;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0px auto;
+        padding: 10px;
+    }
+
+    .logo a {
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    .logo{
+        height: 20px;
+    }
+
+    .brand{
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu-toggle {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        background: transparent;
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        line-height: 40px;
+        font-size: 1.5rem;
+        color: #069370;
+
+    }
+
+    .menu-toggle:before {
+        content: '\f0c9';
+        font-family: fontAwesome;
+    }
+
+    .menu-toggle.active:before {
+        content: '\f00d';
+        font-family: fontAwesome;
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav ul li a {
+        padding: 5px ;
+        font-size: 0.7rem;
+    }
+
+    nav.active {
+        display: block;
+        width: 100%;
+        text-align: right;
+    }
+
+    nav.active ul {
+        display: block;
+        width: 99%;
+        margin: 0 auto;
+        position: absolute;
+        background: #D6F5F8;
+        z-index: 9999;
+        background: linear-gradient(#ffffff, #DAF6FA);
+        opacity: 0.9;
+        right:2px ;
+
+    }
+
+    nav.active ul li a {
+        margin: 0px;
+        text-align: center;
+        font-size: 0.7rem;
+
+    }
+
+    nav.active ul li a:hover {
+        color: #E74A8F;
+        transition: 0.5s;
+    }
+
+    .info-cost {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0px;
+    }
+
+    .title {
+        width: 100%;
+        position: absolute;
+        top: 320px;
+        left: 0%;
+    }
+
+    .ketaikensho {
+        width: 100%;
+        position: absolute;
+        top: 250px;
+        left: 0%;
+    }
+
+    .ketaikensho img {
+        width: 50%;
+    }
+
+    .title img {
+        width: 100%;
+    }
+
+    .info-title {
+        margin: 10px 5px 0 -20px;
+    }
+
+    .info-map {
+        height: 350px;
+        margin: 10px 5px 50px 5px;
+        background-position:center;
+        background-size:contain;
+    }
+
+    .midasi {
+        margin: 0;
+        padding: 0;
+        height: 325px;
+    }
+
+    .midasi img {
+        width: 250px;
+    }
+
+    .midasi-text {
+        width: 90%;
+        margin: 244px auto 20px auto;
+        padding: 0px;
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .info-third {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .info-third h2 {
+        width: 89%;
+        margin: 5px auto;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 40px;
+        color: #03afeb;
+        font-family: "Koburina Go Std";
+        text-align: center;
+    }
+
+    .info-third h3 {
+        width: 80%;
+        font-size: 11px;
+    }
+
+    .info-third a h4 {
+        width: 200px;
+        background-position: 5% -10px, 50% 0%;
+
+    }
+
+
+    .info-third a {
+        text-decoration: none;
+    }
+
+    .info-third h5 {
+        width: 200px;
+        background-position: 10% -10px;
+    }
+
+    .info-third a h5:hover {
+        background-position: 10% 0px;
+    }
+
+
+    .information {
+        margin: 0 auto;
+    }
+
+    .col-2,
+    .col-10 {
+        flex-basis: 100%;
+    }
+
+    .info-title {
+        margin: 10px auto 0 auto;
+    }
+
+
+
+    .copyright {
+        padding:0px;
+        margin: 0px auto;
+        text-align: center;
+        line-height:30px;
+        font-size: 10px;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .link{
+        width:80%;
+        margin: 0 auto;
+        clear: both;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    .link a {
+        text-decoration: none;
+        display: block;
+        padding:10px;
+        font-size: 7px;
+        line-height: 0px;
+        color: #666666;
+        font-family: "Hira Kaku Std";
+        text-align:center;
+    }
+
+    .items{
+        justify-content: center;
+    }
+
+    .info-cost h3{
+        background-size:cover; 
+        background-position:center;
+        margin-top:40px;
+        
+    }
+    
+    .col-6{
+        flex-basis: 90%;
+    }
+
+    .cost-img1{
+        margin-top: -5px;
+    }
+
+    .link {
+        display:none;
+    }
+    
+    .copyright {
+        padding: 10px 0px;
+        line-height: 10px;
+        flex-basis: 99%;
+        justify-content: center;
+    }
+
+    .copyright h5{
+        text-align: center;
+    }
+    
+    footer {
+        margin-top: 50px;
+        font-size: 11px;
+        line-height: 20px;
+        color: #666666;
+        background: #F5F5F5;
+        font-family: "Gotham";
+    }
+
+}

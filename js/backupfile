@@ -1,0 +1,25 @@
+
+    <header>
+        <div class="nav-container">
+            <img class="logo-img" src="./images/logo.png" alt="">
+            <a class="logo" href="#">ケータイガレージ</a>
+            <div class="menu-toggle">
+                <nav>
+                    <ul>
+                        <li><a href="#" class="active">セルフチェックコース</a></li>
+                        <li><a href="#">緊急チェックコース</a></li>
+                        <li><a href="#">端末リスト</a></li>
+                        <li><a href="#">お見積り。お申し込み</a></li>
+                        <li><a href="#">アクセス</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clearfix"></div>   
+        </div>
+        <img src="./images/keitaikensyou.png" style="position:absolute; top:50%;
+            left: 30%;
+            transform: translate(-50%, -50%);" alt="">
+            <img src="./images/title.png" style="position:absolute; top:90%;
+            left: 55%;
+            transform: translate(-50%, -50%);" alt="">
+    </header>

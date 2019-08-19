@@ -1,0 +1,85 @@
+
+
+
+
+header {
+    background: #ffffff;
+    background-image: url('../images/top_bg.png');
+    background-position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
+}
+
+.nav-container {
+    position: relative;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.logo-img {
+    width: 70px;
+    height: 30px;
+    float: left;
+    margin: 15px 30px;
+}
+
+.logo {
+    color: #000000;
+    font-size: 1.2rem;
+    line-height: 60px;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 800;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+nav {
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: .8rem;
+    font-weight: 800;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background: transparent;
+    color:#464646;
+    transition: 0.1s;
+}
+
+nav ul li a:hover {
+    background: transparent;
+    color: #F75BA2;
+    transition: 0.1s;
+}
